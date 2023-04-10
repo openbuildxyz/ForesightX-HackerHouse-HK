@@ -1,0 +1,7 @@
+{
+   “wallet_address”: 0xe433B28575560619fFC37Ac0Eca4c86E42680226,
+   “omnichain_swap_contract_address”: 0x5774a7317a3D93698A64C4C4CD357B424C4DC148,
+   "nft_contract_address_goerli": 0x5774a7317a3d93698a64c4c4cd357b424c4dc148,
+   "nft_contract_address_bsc": 0xfe9eb065cab82421d06c8ed41c31beb473a5fa7e
+   "curve_contract_address": "0x1234",
+}
