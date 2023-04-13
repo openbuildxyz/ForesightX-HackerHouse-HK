@@ -1,17 +1,11 @@
+//@ts-nocheck
 import Image from 'next/image'
 import { Client } from '@bnb-chain/zkbnb-js-sdk';
 import { Inter } from 'next/font/google'
 import NFTGallery from '@/components/NFTGallery'
-import styles from '@/styles/Home.module.css'
-
+import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 const client = new Client('https://api-testnet.zkbnbchain.org')
-
-
-
-//@ts-nocheck
-import Head from 'next/head'
-// import styles from '@/styles/Home.module.css'
 
 
 
