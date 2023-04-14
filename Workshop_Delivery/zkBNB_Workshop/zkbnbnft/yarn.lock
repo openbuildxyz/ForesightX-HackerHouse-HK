@@ -9,9 +9,10 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@bnb-chain/zkbnb-js-sdk@bnb-chain/zkbnb-js-sdk":
+"@bnb-chain/zkbnb-js-sdk@^4.4.1":
   version "4.4.1"
-  resolved "https://codeload.github.com/bnb-chain/zkbnb-js-sdk/tar.gz/8ecc19a4a517956fadcf9c433b57ea04254f3118"
+  resolved "https://registry.yarnpkg.com/@bnb-chain/zkbnb-js-sdk/-/zkbnb-js-sdk-4.4.1.tgz#a696a2824bc09841f7863872035b43a19b58f73d"
+  integrity sha512-Cg4aiuJBqdpA6TLbgZWeyUyFbFYv5kyeV5M5MuJp2HLBmH07beZKiINzA0BRCdN8qv94fyyCBcsu9OQzzrLcGg==
   dependencies:
     "@types/node" "^18.13.0"
     lodash "^4.17.21"
