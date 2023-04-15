@@ -75,12 +75,6 @@ contract TheEdenNFT is ERC721, ERC721Burnable, AccessControl {
         _burn(tokenId);
     }
 
-    function grantMinterRoleList(address[] memory minterlist) public onlyAdmin {
-        for(uint i = 0;i < minterlist.length;++i) {
-            _grantRole(MINTER_ROLE, minterlist[i]);
-        }
-    }
-
     function supportsInterface(bytes4 interfaceId)
         public
         view
