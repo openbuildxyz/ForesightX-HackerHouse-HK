@@ -1,0 +1,3 @@
+[submodule "Workshop_Delivery/Solidity_Improvement_Workshop/lib/forge-std"]
+	path = Workshop_Delivery/Solidity_Improvement_Workshop/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
