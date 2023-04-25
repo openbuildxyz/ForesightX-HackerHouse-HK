@@ -1,0 +1,22 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_marketplace = "NFT2MKnHT4S2dha9VgWYYwSgYEBrT5YmfLitHsRiHdx"
+
+[programs.devnet]
+solana_marketplace = "NFT2MKnHT4S2dha9VgWYYwSgYEBrT5YmfLitHsRiHdx"
+
+[programs.mainnet]
+solana_marketplace = "NFT2MKnHT4S2dha9VgWYYwSgYEBrT5YmfLitHsRiHdx"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://metaplex.devnet.rpcpool.com"
+wallet = "keypair/NFT99UUrXCrtYfyAEgAnKPfh9sA3LtSP2sSDLmBW8UF.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
