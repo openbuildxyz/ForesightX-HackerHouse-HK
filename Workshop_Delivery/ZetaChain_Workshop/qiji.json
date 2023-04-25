@@ -1,0 +1,9 @@
+Your Wallet Address: 0xAaFd9aa3e1Bd2a2Cf3182071D8f50Ed56f8E2A58
+Your Private Key: ac14450d6f90fcda50d486a7d915262e7e2adb780b5f513f5825a7e4897e1b52
+Requesting testnet assets from the faucet...
+Updated .env file "packages/example-contracts/.env".
+Updated .env file "packages/zevm-example-contracts/.env".
+statusCode: 200
+queuing 0xAaFd9aa3e1Bd2a2Cf3182071D8f50Ed56f8E2A58%            
+
+
