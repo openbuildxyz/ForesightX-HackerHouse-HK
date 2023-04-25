@@ -1,0 +1,11 @@
+{
+   “wallet_address”: “0x6bC52Ab49973AfAE16C84e0C729eBD59b8beAda8”,
+   “omnichain_swap_contract_address”: “0x9666D336d2e5Bb880c4979BBC3d993542D052cd5”,
+   "nft_contract_address_goerli": "0x1234",
+   "nft_contract_address_bsc": "0x1234",
+   "curve_contract_address": "0x1234",
+}
+
+// I have gas fee issue in deploying the 3 contracts. But the solution is clear and I can do it with enough balance in my wallet.
+
+//Come back in the evening I found zeta test net is under maintenance.
