@@ -1,0 +1,20 @@
+## prepare
+```shell
+cp .env.example .env
+yarn install
+npx hardhat run scripts/deploy-upgrade.ts --network testnet
+
+Check my txs on https://testnet.bscscan.com/address/0xf42e952489e84e5199d9357a2e7b0fde7cd5af0a
+
+### result
+Deployed MyNFT to :0xAE7141b7f17Ec73CCeFBFa85C7d28f9Df79c857A on 0xdf80faeaf571046d8c70a4aa59c178a6a551d8e05bbf1f3bade5013197d7ac2e
+version BigNumber { value: "1" }
+add whitelist 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a on 0xd79a1f6b6f38be92941bf3349cd887b606e368c0c6e326f3350fa33db8e0cc83
+minted 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a on 0xa736e1d9a2cd8f3b9dcce4ad5ea3b7e752cb0e1484cf51242aff434f96fc81fb
+transfer from 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a to 0x0000000000000000000000000000000000000001 tokenId 0 on 0x04fb1284ad3d7a10e2c9cffea93a259f31d1384575f1ba62d99651b724b6ab4d
+Upgrade to myNFTUpgradeableV2
+version BigNumber { value: "2" }
+after upgrade, add whitelist 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a on 0x6e406c572bcf4904026a81307df690ba1872e17f39a5ee546e6676208b156414
+after upgrade, minted 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a on 0xc6f32cdfbead65322ed99dd60aaba6f764f435b075f09c9a06ade1a7961148bc
+after upgrade, transfer from 0xF42e952489e84e5199d9357a2e7B0FDe7cD5Af0a to 0x0000000000000000000000000000000000000001 tokenId 1 on 0x98cb3bb634b9cf91657a638941eeecf6d06edc5ece6e355b88d079805d18063d
+```
